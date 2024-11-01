@@ -1,2 +1,4 @@
 # KIRTI_STEMSAGO
->git clone
+
+You Git Clone The project: 
+>git clone https://github.com/Tri69/KIRTI_STEMSAGO.git
