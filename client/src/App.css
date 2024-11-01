@@ -1,0 +1,81 @@
+body {
+  margin: 0;padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+ .navbar {
+	padding: 10px; box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+  position: fixed;
+}
+.logo {
+  width: 41px;
+  margin-left: 20px;
+}
+.container-body {
+  background-image: url("./assets/background.JPG");
+  background-size: cover;margin-top: 67px;
+}
+.caption-body {
+	text-align:center;
+}
+.caption-body h1 {
+  font-weight: bold;font-family:  'Courier New', Courier, monospace;
+  font-size: 50px;
+  color: white;
+}
+.caption-body h1 b {
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+  color: rgb(100, 235, 11);
+}
+.caption-body h3{
+ 
+  font-size: 30px;
+  color: white;
+}
+.caption-body button {
+	margin:10px;
+}
+.nm  {
+  display:flex; justify-content: flex-end;
+}
+.nm .caption-kirti {
+  justify-content: space-evenly;
+}
+.container-about {
+  background: linear-gradient(to right, white 50%,violet 99%);
+}
+
+.logo-kirti {
+  margin-right: 40px;
+}
+.caption-kirti {
+  margin-top: 30px;
+  text-align: justify;
+}
+.about-list ul {
+  display: flex; justify-content: space-evenly;
+}
+#pillNav2{
+  max-width: 450px;
+  --bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);
+}
+@media(max-width: 670px) {
+	.container-body {
+		background-size:cover;
+	}
+	.caption-body h1 {
+ 
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+.caption-body h3{
+	
+  font-weight: bold;
+  font-size: 18px;
+}
+.nm {
+ 
+  display: block;
+}
+}
